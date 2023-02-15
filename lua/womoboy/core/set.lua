@@ -1,0 +1,11 @@
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.tabstop = 2 
+vim.opt.softtabstop = 2
+vim.opt.expandtab = true
+vim.opt.shiftwidth = 2
+vim.opt.foldmethod = "indent"
+vim.opt.foldlevel = 99 
+vim.opt.foldenable = true
+vim.opt.smartcase = true
+vim.opt.ignorecase = true
