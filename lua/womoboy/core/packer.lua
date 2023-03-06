@@ -26,8 +26,17 @@ return require("packer").startup(function(use)
 	use("nvim-lualine/lualine.nvim")
 	use("preservim/tagbar")
 	use("easymotion/vim-easymotion")
-  use "folke/twilight.nvim"
-  use "lukas-reineke/indent-blankline.nvim"
+	use("folke/twilight.nvim")
+	use("lukas-reineke/indent-blankline.nvim")
+	use({
+		"kylechui/nvim-surround",
+		tag = "*", -- Use for stability; omit to use `main` branch for the latest features
+		config = function()
+			require("nvim-surround").setup({
+				-- Configuration here, or leave empty to use defaults
+			})
+		end,
+	})
 
 	-- color and theme
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
@@ -47,5 +56,5 @@ return require("packer").startup(function(use)
 	use("L3MON4D3/LuaSnip")
 	use("saadparwaiz1/cmp_luasnip")
 	use("rafamadriz/friendly-snippets")
-	-- use("MunifTanjim/prettier.nvim")
+	use("MunifTanjim/prettier.nvim")
 end)

@@ -7,7 +7,6 @@ require("lspconfig").lua_ls.setup({})
 require("lspconfig").html.setup({
 	capabilities = capabilities,
 }) --for format
-require("lspconfig").tidy.setup({})
 require("lspconfig").rust_analyzer.setup({})
 require("lspconfig").pyright.setup({})
 require("lspconfig").stylelint_lsp.setup({})
