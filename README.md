@@ -6,3 +6,5 @@ there is .bashrc file inside the terminal folder, note: file is hidden
 
 note: the both of file should be replaced in root directory on the linux
 note: after replaced file should be install plugins you can whatching that in youtube https://www.youtube.com/watch?v=jS-QZKjAd-U&t=607s
+
+test
