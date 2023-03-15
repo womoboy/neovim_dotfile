@@ -1,4 +1,4 @@
-![This is an image]()
+![This is an image](https://raw.githubusercontent.com/womoboy/neovim_dotfile/main/image/gimp-worklfow.png)
 
 ### config files
 - The terminal and tmux config inside the folder with name `treminal`, `tmux`, just replace it.
