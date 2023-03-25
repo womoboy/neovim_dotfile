@@ -28,4 +28,5 @@ create `nvim` folder in `./config` directory and replace all files inside `nvim`
 - Now your see what the languages is imported for example I added `lua_ls, html, rust_analyzer, pyright, styleling_lsp and more`, you should install them;
 - For install lsp languages you can use `Manson` or install manually with `npm`. If your want to read more got to the `https://github.com/neovim/nvim-lspconfig`, and `https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md`.
 <br>
-Enjoy that! (▀̿Ĺ̯▀̿ ̿);
+Enjoy that!:)
+
