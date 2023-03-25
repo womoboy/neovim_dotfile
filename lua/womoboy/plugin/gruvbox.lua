@@ -16,6 +16,11 @@ require("gruvbox").setup({
 	overrides = {},
 	dim_inactive = false,
 	transparent_mode = false,
+  italic = {
+     strings = true,
+     operators = true,
+     comments = true,
+  }
 })
 
 vim.o.background = "dark"
