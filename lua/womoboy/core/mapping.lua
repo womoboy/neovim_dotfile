@@ -8,6 +8,7 @@ vim.keymap.set("n", "<leader>fo", vim.lsp.buf.format)
 vim.keymap.set("n", "<leader>tw", vim.cmd.Twilight)
 vim.keymap.set("n", "<leader>nhs", vim.cmd.nohlsearch)
 vim.keymap.set("n", "<leader>o", ":call append(line('.'), '') | call append(line('.')-1, '')<CR>")
+vim.keymap.set("n", "<C-a>", "G<S-v>gg")
 
 -- tab navigate
 vim.keymap.set("n", "<leader>nt", vim.cmd.tabn)
@@ -20,3 +21,6 @@ vim.keymap.set("n", "<A-k>", ":m .-2<CR>")
 vim.keymap.set("n", "<A-j>", ":m .+1<CR>")
 vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv")
+
+-- float terminal
+vim.keymap.set("n", "<leader>to", ":FloatermToggle<CR>");

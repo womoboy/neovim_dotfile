@@ -28,6 +28,7 @@ return require("packer").startup(function(use)
 	use("easymotion/vim-easymotion")
 	use("folke/twilight.nvim")
 	use("lukas-reineke/indent-blankline.nvim")
+  use("voldikss/vim-floaterm")
 	use({
 		"kylechui/nvim-surround",
 		tag = "*", -- Use for stability; omit to use `main` branch for the latest features
@@ -41,8 +42,8 @@ return require("packer").startup(function(use)
 	-- color and theme
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
 	use("nvim-treesitter/playground")
-	use({ "ellisonleao/gruvbox.nvim" })
 	use("norcalli/nvim-colorizer.lua")
+  use("folke/tokyonight.nvim")
 
 	-- lsp
 	use("neovim/nvim-lspconfig")
