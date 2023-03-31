@@ -1,5 +1,6 @@
 # My code editor worklow
 ![This is an image](https://raw.githubusercontent.com/womoboy/neovim_dotfile/main/image/gimp-worklfow.png)
+![This is an image](https://raw.githubusercontent.com/womoboy/neovim_dotfile/main/image/nvimEnviromentNewTheme-edited.png)
 
 ### config files
 - The terminal and tmux config inside the folder with name `treminal`, `tmux`, just replace it.
