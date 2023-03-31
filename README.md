@@ -1,9 +1,9 @@
 # My code editor worklow
 
-### gruvebox theme
+### Gruvbox theme
 ![This is an image](https://raw.githubusercontent.com/womoboy/neovim_dotfile/main/image/gimp-worklfow.png)
 
-### gruvebox theme
+### TokyoNight theme
 ![This is an image](https://raw.githubusercontent.com/womoboy/neovim_dotfile/main/image/nvimEnviromentNewTheme-edited.png)
 
 ### config files
